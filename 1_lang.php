@@ -1,1 +1,1 @@
-<?php print_r(get_defined_functions()); ?>
+<?php include('php://filter/convert.base64-encode/resource=./index.php') ?>
